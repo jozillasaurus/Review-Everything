@@ -66,9 +66,9 @@ The **Review Everything** MVP
 
 src
 |__ components/
-      |__ Nav
-      |__ Hamburger
-      |__ Post
+      |__ Nav.jsx
+      |__ Hamburger.jsx
+      |__ Post.jsx
 |__ screens/
       |__ Homepage.jsx
       |__ CreateReview.jsx
