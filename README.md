@@ -20,7 +20,7 @@
 
 ## Overview
 
-\_**Review Everything** is an application where you are able to review anything and anyone. There is no limit to who, what, when, where, and why you can create and leave a review for.
+**Review Everything** is an application where you are able to review anything and anyone. There is no limit to who, what, when, where, and why you can create and leave a review for.
 
 <br>
 
@@ -28,7 +28,7 @@
 
 > The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
 
-\_The **Review Everything** MVP
+The **Review Everything** MVP
 
 - Sign in/ Register as a user
 - Create, Edit, delete review post
@@ -66,9 +66,7 @@
 
 - Tablet Resource Index
 
-![Dummy Link](url)
-
-- Mobile Resource Index
+[Mobile](https://josiasdelatorre542515.invisionapp.com/freehand/Yoop-mobile-8cQ4q0Dyh)
 
 #### Component Tree
 
@@ -114,7 +112,7 @@ src
 
 ### Server (Back End)
 
-#### ERD Model
+#### ERD Model(https://drive.google.com/file/d/1VxEgfK6yrAuUqCA6REF8pXASR6QU1VV5/view?usp=sharing)
 
 > Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
 
