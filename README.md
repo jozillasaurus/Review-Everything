@@ -26,8 +26,6 @@
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
-
 The **Review Everything** MVP
 
 - Sign in/ Register as a user
@@ -57,8 +55,6 @@ The **Review Everything** MVP
 ### Client (Front End)
 
 #### Wireframes
-
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
 [Desktop](https://josiasdelatorre542515.invisionapp.com/freehand/Yoop-desktop-y96IhoTt2)
 
@@ -111,8 +107,6 @@ src
 ### Server (Back End)
 
 #### [ERD Model](https://drive.google.com/file/d/1VxEgfK6yrAuUqCA6REF8pXASR6QU1VV5/view?usp=sharing)
-
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
 
 <br>
 
