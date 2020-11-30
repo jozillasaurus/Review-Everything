@@ -44,8 +44,6 @@ The **Review Everything** MVP
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
-
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
 |      React       | _Lorem ipsum dolor sit amet, consectetur._ |
@@ -112,7 +110,7 @@ src
 
 ### Server (Back End)
 
-#### ERD Model(https://drive.google.com/file/d/1VxEgfK6yrAuUqCA6REF8pXASR6QU1VV5/view?usp=sharing)
+#### [ERD Model](https://drive.google.com/file/d/1VxEgfK6yrAuUqCA6REF8pXASR6QU1VV5/view?usp=sharing)
 
 > Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
 
