@@ -8,7 +8,6 @@
     - [Wireframes](#wireframes)
     - [Component Tree](#component-tree)
     - [Component Hierarchy](#component-hierarchy)
-    - [Component Breakdown](#component-breakdown)
     - [Time Estimates](#time-estimates)
   - [Server (Back End)](#server-back-end)
     - [ERD Model](#erd-model)
@@ -42,13 +41,12 @@ The **Review Everything** MVP
 
 ### Libraries and Dependencies
 
-|     Library      | Description                                |
-| :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|    Library    | Description                          |
+| :-----------: | :----------------------------------- |
+|     React     | Front End                            |
+| React Router  | Front End Routes and Links           |
+| Ruby on Rails | Back End                             |
+| RoR gem 'jwt' | Back End- Token based authentication |
 
 <br>
 
@@ -62,45 +60,47 @@ The **Review Everything** MVP
 
 [Mobile](https://josiasdelatorre542515.invisionapp.com/freehand/Yoop-mobile-8cQ4q0Dyh)
 
-#### Component Tree
-
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components.
-
 #### Component Hierarchy
-
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like.
 
 ```structure
 
 src
-|__ assets/
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
 |__ components/
-      |__ Header.jsx
+      |__ Nav
+      |__ Hamburger
+      |__ Post
+|__ screens/
+      |__ Homepage.jsx
+      |__ CreateReview.jsx
+      |__ Review.jsx
+      |__ AddReview.jsx
+      |__ EditReview.jsx
+      |__ AboutUs.jsx
+      |__ Login.jsx
+      |__ SignUp.jsx
 |__ services/
 
 ```
 
 #### Component Tree
 
-> Use this section to include a link to your component tree.
-
-[Component tree](url)
+[Component tree](https://whimsical.com/PxsUkyJKnWS6fDFYjdtVHJ)
 
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
-
-| Task                | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
-
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+| Task                     | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------ | :------: | :------------: | :-----------: | :---------: |
+| Back End                 |    H     |     4 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions      |    H     |     4 hrs      |     1 hrs     |     TBD     |
+| Sign Up/Sign In pages    |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Token Authentication     |    H     |     4 hrs      |     1 hrs     |     TBD     |
+| Build Nav and Hamburger  |    H     |     4 hrs      |     1 hrs     |     TBD     |
+| Create HomePage          |    H     |     2 hrs      |     1 hrs     |     TBD     |
+| Create Review Components |    H     |     4 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions      |    H     |     4 hrs      |     1 hrs     |     TBD     |
+| About Page               |    H     |     2 hrs      |     1 hrs     |     TBD     |
+| CSS                      |    H     |     5 hrs      |     1 hrs     |     TBD     |
+| TOTAL                    |          |     36 hrs     |     3 hrs     |     TBD     |
 
 <br>
 
