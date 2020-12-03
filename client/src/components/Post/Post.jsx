@@ -2,6 +2,8 @@ import React, { useState, useEffect, Fragment } from 'react';
 import axios from 'axios';
 import Header from './Header'
 import ReviewForm from './ReviewForm'
+import Token from '../../services/token/Token'
+// import ax from '../../services/token/Token'
 import "./Post.css"
 
 function Post(props) {
@@ -32,15 +34,23 @@ function Post(props) {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    const csrfToken = document.querySelector('[name=csrf-token]').content
-    axios.defaults.headers.common['X-CSRF-TOKEN'] = csrfToken
-
+    Token()
+    // ax()
+    
     const post_id = post.data.id
     axios.post('http://localhost:3000/api/v1/reviews', { review, post_id })
-    .then(resp => {
-      debugger
-    })
+      .then(resp => {
+        const included = [...post.included, resp.data]
+        setPost({...post, included})
+        setReview({title:'', description:'', score:0})
+      })
     .catch(resp => {})
+  }
+
+  const setRating = (score, e) => {
+    e.preventDefault()
+
+    setReview({...review, score})
   }
 
   return (
@@ -61,6 +71,7 @@ function Post(props) {
             <ReviewForm
               handleChange={handleChange}
               handleSubmit={handleSubmit}
+              setRating={setRating}
               attributes={post.data.attributes}
               review={review}
             />
